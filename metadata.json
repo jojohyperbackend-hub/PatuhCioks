@@ -1,0 +1,6 @@
+{
+  "name": "PatuhCioks",
+  "description": "Cinematic high-performance landing page for PatuhCioks, blending streetwear energy, luxury craftsmanship, and eco-friendly sustainability. Featuring an interactive 3D shoe render and Leaflet store mapping.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
