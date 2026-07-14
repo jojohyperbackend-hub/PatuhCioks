@@ -1,8 +1,15 @@
 import { ShoeProduct, Testimonial, StoreLocation } from './types';
 
-export const SHOWROOM_IMAGE = '/src/assets/images/showroom_jakarta_1784054299369.jpg';
-export const SNEAKER_SHOWCASE_IMAGE = '/src/assets/images/sneaker_showcase_1784054314046.jpg';
-export const CRAFTSMANSHIP_IMAGE = '/src/assets/images/craftsmanship_materials_1784054326482.jpg';
+import showroomImg from './assets/images/showroom_jakarta_1784054299369.jpg';
+import showcaseImg from './assets/images/sneaker_showcase_1784054314046.jpg';
+import craftsmanshipImg from './assets/images/craftsmanship_materials_1784054326482.jpg';
+import phantomImg from './assets/images/shoe_phantom_1784054356626.jpg';
+import clayLuxImg from './assets/images/shoe_clay_lux_1784054369456.jpg';
+import mossBioImg from './assets/images/shoe_moss_bio_1784054382893.jpg';
+
+export const SHOWROOM_IMAGE = showroomImg;
+export const SNEAKER_SHOWCASE_IMAGE = showcaseImg;
+export const CRAFTSMANSHIP_IMAGE = craftsmanshipImg;
 
 export const FLAGSHIP_SHOES: ShoeProduct[] = [
   {
@@ -20,7 +27,7 @@ export const FLAGSHIP_SHOES: ShoeProduct[] = [
     ],
     personality: 'An avant-garde triple-black silhouette engineered for concrete exploration. Zero compromises on durability, maximum attitude.',
     colorway: 'Stealth Black / Asphalt Gray / Charcoal',
-    imageUrl: '/src/assets/images/shoe_phantom_1784054356626.jpg'
+    imageUrl: phantomImg
   },
   {
     id: 'cioks-clay-lux',
@@ -38,7 +45,7 @@ export const FLAGSHIP_SHOES: ShoeProduct[] = [
     ],
     personality: 'A seamless integration of clean architectural curves and luxury handcrafting. Sourced responsibly, styled for eternity.',
     colorway: 'Bone White / Clay Ochre / Matte Brass',
-    imageUrl: '/src/assets/images/shoe_clay_lux_1784054369456.jpg'
+    imageUrl: clayLuxImg
   },
   {
     id: 'cioks-moss-bio',
@@ -56,7 +63,7 @@ export const FLAGSHIP_SHOES: ShoeProduct[] = [
     ],
     personality: 'Our most ecological model. Formed from fully circular, breathable, organic compounds designed to step lightly on the earth.',
     colorway: 'Unbleached Natural / Forest Moss / Sand',
-    imageUrl: '/src/assets/images/shoe_moss_bio_1784054382893.jpg'
+    imageUrl: mossBioImg
   }
 ];
 
